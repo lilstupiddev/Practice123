@@ -22,3 +22,11 @@ git add .
 git commit -m "test: add tests"
 git push origin feature/tests
 # → PR
+
+import ua.university.Order;
+import ua.university.OrderItem;
+import org.junit.jupiter.api.Test;
+import ua.university.OrderState;
+
+import java.util.Arrays;
+import static org.junit.jupiter.api.Assertions.*;
